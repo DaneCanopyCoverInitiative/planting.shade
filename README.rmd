@@ -1,6 +1,6 @@
 ---
 title: "README"
-author: "Ellen Esch"
+author: "Matt Noone"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   github_document:
@@ -17,9 +17,9 @@ knitr::opts_chunk$set(echo = FALSE, message = F, warning = F)
 
 ## Overview
 
-Growing Shade is a new tool for improving the equity and sustainability of the Twin Cities region through tree canopy enhancement and preservation. Equity and sustainability are two outcomes of the Thrive 2040 regional policy plan which Growing Shade makes actionable. Growing Shade can be accessed at: www.growingshade.com or https://metrotransitmn.shinyapps.io/growing-shade/. 
+Growing Shade is a new tool for improving the equity and sustainability of the Dane County region through tree canopy enhancement and preservation. Equity and sustainability are two goals of Dane County which Growing Shade makes actionable. Growing Shade can be accessed at: *****. 
 
-Growing Shade is predicated on the fact that trees help the region thrive. Benefits from trees include cooler temperatures, improved air quality, cleaner stormwater, improved mental health, and enhanced biodiversity. Enhancing and preserving tree canopy cover is an actionable step to create healthy and resilient places. 
+Growing Shade is predicated on the fact that trees help the region thrive. Benefits from trees include cooler temperatures, improved air quality, cleaner storm water, improved mental health, and enhanced biodiversity. Enhancing and preserving tree canopy cover is an actionable step to create healthy and resilient places. 
 
 Trees additionally connect to regional issues and priorities. Public health, environmental justice, climate change, and natural resource conservation all intersect with the tree canopy. Growing Shade provides tree planting efforts and ongoing maintenance with new perspectives, rigorous science, and thoughtful synthesis. 
 
@@ -29,9 +29,8 @@ Growing Shade combines local **stories** and an **interactive mapping tool** to 
 
 ## Scaling to other regions
 
-I have tried to make an RShiny application that is highly portable, well documented, and requires minimal coding in order to lower the bar for other regions who might like to implement this type of "growing shade" analysis. Everything is open source! 
-
-Please navigate to the `Tutorial.Rmd` script to begin processing data for other regions.
+The original fork for this project was developed by Ellen Esch of the Twin Cities, Minnesota region. See the original repository here:
+https://github.com/Metropolitan-Council/planting.shade
 
 ## Evolution of the project
 
