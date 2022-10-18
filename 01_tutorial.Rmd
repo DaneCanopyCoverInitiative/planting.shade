@@ -59,7 +59,7 @@ detailed_population_count <- FALSE #are there more accurate counts of total popu
 ######
 # Tree canopy and/or geography files
 ######
-regional_specific_data <- FALSE # go to 02_geographies.Rmd and 03_remotesensing.Rmd scripts to process/make these files, as applicable
+regional_specific_data <- FALSE # go to 02_geographies.Rmd and 03_remotesensing.Rmd scripts to process/make these files, as applicable; another option for this is to == "DaneCo"
 
 ```
 
@@ -532,7 +532,13 @@ ctu_list_raw <- cities %>%
 nhood_list_raw <- ctu_list_raw %>%
   mutate(city = "placeholder")
   
-} else {
+} else if (regional_specific_data == "DaneCo") {
+  bg_canopy <- read_csv()
+  bg_ndvi <- read_csv()
+  ctu_list_raw<- read_csv()
+  nhood_list_raw<- read_csv()
+  
+} {
   load(paste0(here::here(), "/data-raw/canopy_data.rda"))
 }
 ```
