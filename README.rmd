@@ -25,19 +25,18 @@ Trees additionally connect to regional issues and priorities. Public health, env
 
 Growing Shade combines local **stories** and an **interactive mapping tool** to inform tree canopy enhancement and preservation. 
 
+
 **This repository walks through the creation and aggregation of data used in interactive mapping tool.**
 
-## Scaling to other regions
+## Getting started
 
 The original fork for this project was developed by Ellen Esch of the Twin Cities, Minnesota region. See the original repository here:
 https://github.com/Metropolitan-Council/planting.shade
 
-## Evolution of the project
 
-Growing shade concept is a merger of:
+Most packages are available on CRAN, so can be downloaded through standard procedures. There are two specific packages which should be downloaded from GitHub versions.
 
-- Fundamental ecological principles coupled with remote sensing (for technical tree parameters, data, and metrics)
-- Conversations with advisory group for Growing Shade Project (for concept and framing)
-- The Economic Values Atlas project in collaboration with Brookings Institution (for methods of synthesizing demographic data)
-
-
+```{r}
+devtools::install_github("eclarke/ggbeeswarm")
+devtools::install_github("Metropolitan-Council/councilR")
+```
